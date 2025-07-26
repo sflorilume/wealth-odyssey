@@ -1,70 +1,70 @@
-# Getting Started with Create React App
+# Understanding Your Wealth Odyssey: A Guide to the Metrics
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This guide explains every metric used in the **Wealth Odyssey** app. Think of these as the *dials and gauges* on the dashboard of your financial journey. Understanding them helps you steer towards your goals more effectively.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## Part 1: Your Inputs (The Levers You Control)
 
-### `npm start`
+These are the numbers you provide. They are the most important because they represent the parts of your financial life you have **direct control** over.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### 1. Starting Savings
+**What It Is:** The amount of money you already have saved and invested today.  
+**Why It Matters:** This is your **head start**. A larger starting amount gives your money a powerful initial base to begin compounding from, significantly shortening your journey. However, even a small start is infinitely better than no start at all.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### 2. Monthly Savings
+**What It Is:** The amount of money you consistently save and invest every single month.  
+**Why It Matters:** This is your **engine**. It's the single most powerful lever you can control on a regular basis. Increasing your monthly savings is the most direct way to accelerate your journey to financial independence. It's a reflection of your discipline and commitment.
 
-### `npm test`
+### 3. Expected Annual ROI (Return on Investment)
+**What It Is:** The average percentage of growth you expect your investments to generate each year.  
+**Why It Matters:** This is the **accelerator pedal**. A higher ROI means your money is working harder for you, leading to faster growth. Historically, a diversified stock market portfolio has returned around **8–10% annually** over the long term. Setting a realistic ROI is crucial for accurate projections. This metric teaches you the importance of choosing good investments.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### 4. Years to Simulate
+**What It Is:** The length of time, in years, that you want the app to project into the future.  
+**Why It Matters:** This sets your **time horizon**. A longer time horizon gives the magic of compounding more time to work. This slider helps you understand the immense power of starting early and staying invested for the long term.
 
-### `npm run build`
+### 5. Target Yearly Spending
+**What It Is:** The amount of money you estimate you'll need to live on for one year during retirement.  
+**Why It Matters:** This defines your **finish line**. Without a clear goal, you don't know what you're aiming for. This number is used to calculate your ultimate financial independence target.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+---
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Part 2: Your Outputs (The Results of Your Strategy)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+These are the results calculated by the app based on your inputs. They show you the **potential outcome** of your financial plan.
 
-### `npm run eject`
+### 6. Projected Final Value
+**What It Is:** The total estimated net worth you will have at the end of your simulation period.  
+**Why It Matters:** It gives you a **snapshot of your potential future wealth** if you stick to your plan. It's the final destination shown on the app's map.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### 7. FIRE Target (4% Rule)
+**What It Is:** Your financial independence number. It's calculated by multiplying your **Target Yearly Spending** by **25**.  
+**Why It Matters:** This is your **ultimate goal**. The *4% Rule* is a guideline stating that you can safely withdraw **4% of your total investments each year** in retirement without running out of money. Reaching this target means your investments can likely pay for your lifestyle indefinitely. **You are financially free.**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### 8. Years to FIRE
+**What It Is:** The estimated number of years it will take for your **Projected Final Value** to reach your **FIRE Target**.  
+**Why It Matters:** This is your **countdown clock**. It's the most direct measure of how long your journey will take. If it shows **"N/A"**, it means your current strategy isn't on track to hit your goal within the simulation timeline you've set.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### 9. Investment Breakdown (Total Invested vs. Total Returns)
+**What It Is:** This card splits your **Projected Final Value** into two parts:
+- **Total Invested:** The sum of your own money (your starting savings + all your monthly contributions).  
+- **Total Returns:** The profit generated by your investments through compounding.  
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+**Why It Matters:** This is the **most important lesson** in the app. In the beginning, most of your wealth comes from your own savings. But over time, the **Total Returns** portion grows to become much larger than the money you put in. This visually proves that the goal is not just to save, but to make your **money work for you**.
 
-## Learn More
+### 10. Milestones
+**What It Is:** A tracker that shows how long it will take to reach common wealth milestones (like **$100k**, **$1M**, etc.).  
+**Why It Matters:** The final FIRE target can seem very far away. Milestones break the long journey into **smaller, more motivating checkpoints**. Celebrating these smaller wins keeps you engaged and focused.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+---
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Part 3: Gamification
 
-### Code Splitting
+These elements are designed to make the process of learning and planning more fun and rewarding.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+### 11. XP & Levels
+**What It Is:** **Experience Points (XP)** and **Levels** that you gain by interacting with the app and running simulations.  
+**Why It Matters:** They provide a **sense of progress and achievement**, turning a potentially dry task into an engaging game. Leveling up is a fun representation of you becoming more **financially literate**.
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+---
