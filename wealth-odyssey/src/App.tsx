@@ -4,7 +4,7 @@ import { DollarSign, BarChart2, Calendar, Percent, Target, Award, Star, RefreshC
 
 // --- Configuration & Helpers ---
 
-const USD_TO_IDR_RATE = 16300; // Approximate conversion rate
+const USD_TO_IDR_RATE = 16348; // Approximate conversion rate in July 2025
 
 // Formats a number for display in cards, charts, etc.
 const formatCurrency = (value, currency) => {
